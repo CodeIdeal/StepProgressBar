@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--空心圆角矩形  -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners android:bottomLeftRadius="5dp" android:topLeftRadius="5dp"  /><!-- 圆角半径 -->
+
+    <size
+        android:height="10dp"
+        android:width="10dp" /><!--矩形的宽高  -->
+
+    <gradient
+        android:startColor="@color/app_style_red"
+        android:endColor="@color/app_style_red"/>
+
+</shape>

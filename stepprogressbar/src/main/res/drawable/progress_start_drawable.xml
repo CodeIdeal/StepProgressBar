@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/probardown">
+    <!-- 设置背景色图像资源 -->
+    <item android:id="@android:id/background"
+        android:drawable="@drawable/shape_progress_gray_start"/>
+
+    <!-- 设置第二级进度条颜色图像资源,未用到 -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip  android:drawable="@drawable/shape_progress_red_start"/>
+    </item>
+
+    <!-- 设置第一级进度条颜色图像资源 -->
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/shape_progress_red_start"/>
+    </item>
+</layer-list>

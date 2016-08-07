@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--空心圆角矩形  -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <size
+        android:height="5dp"
+        android:width="5dp" /><!--矩形的宽高  -->
+
+    <gradient
+        android:startColor="@color/app_style_red"
+        android:endColor="@color/app_style_red"/>
+
+</shape>
