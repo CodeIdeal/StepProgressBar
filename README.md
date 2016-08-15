@@ -22,5 +22,15 @@ Add it in your root build.gradle at the end of repositories:
 	}
 ```
 
+### Step 3. in your XXX.xml
+```xml
+	<com.cabana.stepprogressbar.StepProgressBar
+        	android:id="@+id/StepProgressBar"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_centerInParent="true"
+        	StepProgressBar:self_adaptation="true"/>
+```
+
 the screenshot 
 <p><img src="https://github.com/kangyang1024/StepProgressBar/blob/master/device-2016-08-07-172541.png" width = "324" height = "576" alt="srceenshot" align=center /img></p>
